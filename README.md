@@ -21,3 +21,4 @@ Crear en App.jsx toda la aplicación. Una vez hecha y viendo que funciona correc
 *** Recursos adicionales ***
 
 Documentación de la PokeAPI: https://pokeapi.co/docs/v2
+
