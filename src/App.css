@@ -3,10 +3,11 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: yellow;
 }
 
 .logo {
-  height: 6em;
+  height: 8em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
@@ -16,6 +17,11 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.error{
+  color:red;
+  font-size: 2em;
 }
 
 @keyframes logo-spin {
@@ -37,12 +43,26 @@ form{
  display: flex;
  align-items: center;
  gap:15px;
+ margin:2em;
+ font-size: 1.2em;
 }
 
+label{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+input{
+  font-size: 1.2em;
+  border-radius: 5px;
+  border:1px solid #ccc
+}
 
 
 .card {
   padding: 2em;
+  background-color: #2977D6;
+
 }
 .card li{
   list-style: none;
@@ -50,4 +70,37 @@ form{
 
 .read-the-docs {
   color: #888;
+}
+
+.card li{
+  font-size: 1.5em;
+}
+
+.card-characteristics{
+  background-color: yellow;
+  border: 5px solid red;
+}
+
+.card-abilities{
+  text-align: center;
+}
+.card-abilities h2 {
+  font-size: 1.5em;
+}
+
+.card-abilities ul {
+  list-style: none;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+  font-style: oblique;
+}
+
+.card-abilities li {
+  font-size: 1.2em;
+}
+
+.pokemon-name img{
+  border-radius: 40px;
+  border: 5px solid red;
 }

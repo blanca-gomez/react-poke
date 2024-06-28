@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Playwrite NZ", cursive;
   line-height: 1.5;
   font-weight: 400;
 
@@ -28,11 +28,15 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #61dafbaa;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  background-color: yellow;
+  text-align: center;
+  border: 5px solid red;
 }
 
 button {
@@ -42,7 +46,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #96B7DF;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -66,3 +70,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
