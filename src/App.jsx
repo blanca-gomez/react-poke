@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 import './index.css';
-import pokemonLogo from '../public/images/pokemon.png'
+import pokemonLogo from '/images/pokemon2.png'
 
 
 function App () {
@@ -38,7 +38,7 @@ function App () {
   return(
     <>
       <div className='pokemon-name'>
-        <img src='../public/images/pokemon2.png'></img>
+        <img src={pokemonLogo}></img>
       </div>
       <form onSubmit={handleSubmit}>
         <label htmlFor='nombre'>Nombre del pokemon</label>
